@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD5DABDE2AF801C100DC30B9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DABDD2AF801C100DC30B9 /* main.swift */; };
+		AD5DABE62AF931FE00DC30B9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DABE52AF931FE00DC30B9 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,11 @@
 		AD5DABD02AF7D2D400DC30B9 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5DABD32AF7D2D400DC30B9 /* lecture02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lecture02.swift; sourceTree = "<group>"; };
 		AD5DABDA2AF7E3E200DC30B9 /* BOJ10808.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ10808.swift; sourceTree = "<group>"; };
-		AD5DABDD2AF801C100DC30B9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AD5DABDD2AF801C100DC30B9 /* BOJ02309.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ02309.swift; sourceTree = "<group>"; };
+		AD5DABDF2AF9185300DC30B9 /* BOJ02577.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ02577.swift; sourceTree = "<group>"; };
+		AD5DABE12AF91AF200DC30B9 /* BOJ01475.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ01475.swift; sourceTree = "<group>"; };
+		AD5DABE32AF91FD500DC30B9 /* BOJ03273.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ03273.swift; sourceTree = "<group>"; };
+		AD5DABE52AF931FE00DC30B9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,11 @@
 			children = (
 				AD5DABD32AF7D2D400DC30B9 /* lecture02.swift */,
 				AD5DABDA2AF7E3E200DC30B9 /* BOJ10808.swift */,
-				AD5DABDD2AF801C100DC30B9 /* main.swift */,
+				AD5DABDD2AF801C100DC30B9 /* BOJ02309.swift */,
+				AD5DABDF2AF9185300DC30B9 /* BOJ02577.swift */,
+				AD5DABE12AF91AF200DC30B9 /* BOJ01475.swift */,
+				AD5DABE32AF91FD500DC30B9 /* BOJ03273.swift */,
+				AD5DABE52AF931FE00DC30B9 /* main.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -125,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD5DABDE2AF801C100DC30B9 /* main.swift in Sources */,
+				AD5DABE62AF931FE00DC30B9 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
