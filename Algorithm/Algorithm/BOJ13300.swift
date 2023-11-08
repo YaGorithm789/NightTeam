@@ -2,7 +2,7 @@
 //  BOJ13300.swift
 //  Algorithm
 //
-//  Created by 표현수 on 2023/11/07.
+//  Created by Erick on 2023/11/07.
 //  방배정: https://www.acmicpc.net/problem/13300
 //
 
