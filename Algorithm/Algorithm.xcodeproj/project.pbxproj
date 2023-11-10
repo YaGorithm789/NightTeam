@@ -37,6 +37,7 @@
 		45ED8DE52AFE227000724D09 /* BOJ10813.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ10813.swift; sourceTree = "<group>"; };
 		45ED8DE72AFE245800724D09 /* BOJ3052.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ3052.swift; sourceTree = "<group>"; };
 		45ED8DE92AFE27B000724D09 /* BOJ10811.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ10811.swift; sourceTree = "<group>"; };
+		45ED8DEB2AFE29E200724D09 /* BOJ1546.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1546.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 				45ED8DE52AFE227000724D09 /* BOJ10813.swift */,
 				45ED8DE72AFE245800724D09 /* BOJ3052.swift */,
 				45ED8DE92AFE27B000724D09 /* BOJ10811.swift */,
+				45ED8DEB2AFE29E200724D09 /* BOJ1546.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
