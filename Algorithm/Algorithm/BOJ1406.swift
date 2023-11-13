@@ -100,7 +100,7 @@
 //
 //let input = readLine()!
 //let linkedList = LinkedList()
-//let comendCount = Int(readLine()!)!
+//let commandCount = Int(readLine()!)!
 //
 //for str in input {
 //    linkedList.append(text: str)
@@ -108,10 +108,10 @@
 //
 //var cursor: (Node?, Node?) = (linkedList.last, nil)
 //
-//for _ in 1...comendCount {
-//    let comend = readLine()!.split(separator: " ").map { Character(String($0)) }
+//for _ in 1...commandCount {
+//    let command = readLine()!.split(separator: " ").map { Character(String($0)) }
 //
-//    switch comend.first! {
+//    switch command.first! {
 //    case "L":
 //        if cursor.0 == nil {
 //            continue
@@ -131,10 +131,10 @@
 //        }
 //    case "P":
 //        if let node = cursor.0 {
-//            linkedList.insertBack(at: node, comend.last!)
+//            linkedList.insertBack(at: node, command.last!)
 //            cursor = (cursor.0?.back, cursor.1)
 //        } else if let node = cursor.1 {
-//            linkedList.insertFront(at: node, comend.last!)
+//            linkedList.insertFront(at: node, command.last!)
 //            cursor = (cursor.1?.front, cursor.1)
 //        }
 //    default :
@@ -154,9 +154,9 @@
 // MARK: - 맞는 풀이
 var left = readLine()!
 var right = ""
-let commendCount = Int(readLine()!)!
+let commandCount = Int(readLine()!)!
 
-for _ in 1...commendCount {
+for _ in 1...commandCount {
     let input = readLine()!
 
     switch input {
