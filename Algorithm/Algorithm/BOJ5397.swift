@@ -3,7 +3,7 @@
 //  Algorithm
 //
 //  Created by Erick on 2023/11/12.
-//  키로커: https://www.acmicpc.net/problem/5397
+//  키로거: https://www.acmicpc.net/problem/5397
 //
 
 var front = ""
