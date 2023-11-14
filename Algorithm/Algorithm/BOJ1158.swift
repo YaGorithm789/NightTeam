@@ -6,6 +6,7 @@
 //  요세푸스 문제: https://www.acmicpc.net/problem/1158
 //
 
+// MARK: - 풀이 1
 final class Node {
     let data: String
     var front: Node?
@@ -68,3 +69,25 @@ for _ in 1...input.first! {
 }
 
 print("<" + result.joined(separator: ", ") + ">")
+
+// MARK: - 풀이 2
+//var inputs = readLine()!.split(separator: " ").map { Int($0)! }
+//
+//let n = inputs[0]
+//let k = inputs[1]
+//var count = k
+//
+//var arr: [Int] = Array(1...n)
+//var result: [Int] = []
+//
+//while !arr.isEmpty {
+//    if count <= arr.count {
+//        result.append(arr[count - 1])
+//        arr.remove(at: count - 1)
+//        count = count + k - 1
+//    } else {
+//        count -= arr.count
+//    }
+//}
+//
+//print("<" + result.map({String($0)}).joined(separator: ", ") + ">")
