@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		454809B52AF9CB550032E18B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454809B42AF9CB550032E18B /* main.swift */; };
-		459534A12B10238300248A06 /* BOJ10866.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595349E2B10238300248A06 /* BOJ10866.swift */; };
-		459534A22B10238300248A06 /* BOJ5430.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595349F2B10238300248A06 /* BOJ5430.swift */; };
-		459534A32B10238300248A06 /* BOJ1021.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459534A02B10238300248A06 /* BOJ1021.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +37,7 @@
 		454809C22AF9CD500032E18B /* BOJ3273.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ3273.swift; sourceTree = "<group>"; };
 		454809CA2AFA4CF10032E18B /* BOJ10807.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ10807.swift; sourceTree = "<group>"; };
 		454809CC2AFA59570032E18B /* BOJ13300.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ13300.swift; sourceTree = "<group>"; };
+		4566497C2B15600300F6B1AB /* BOJ2504.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ2504.swift; sourceTree = "<group>"; };
 		456A426A2B01FE140075585D /* BOJ10828.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ10828.swift; sourceTree = "<group>"; };
 		4595349E2B10238300248A06 /* BOJ10866.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BOJ10866.swift; sourceTree = "<group>"; };
 		4595349F2B10238300248A06 /* BOJ5430.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BOJ5430.swift; sourceTree = "<group>"; };
@@ -56,6 +54,10 @@
 		45ED8DE72AFE245800724D09 /* BOJ3052.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ3052.swift; sourceTree = "<group>"; };
 		45ED8DE92AFE27B000724D09 /* BOJ10811.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ10811.swift; sourceTree = "<group>"; };
 		45ED8DEB2AFE29E200724D09 /* BOJ1546.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1546.swift; sourceTree = "<group>"; };
+		45F43DFC2B132C7A0035C0AD /* BOJ4949.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ4949.swift; sourceTree = "<group>"; };
+		45F43DFE2B132EB00035C0AD /* BOJ3986.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ3986.swift; sourceTree = "<group>"; };
+		45F43E002B1330360035C0AD /* BOJ9012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ9012.swift; sourceTree = "<group>"; };
+		45F43E022B1335F60035C0AD /* BOJ10799.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ10799.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				45E742022B064E0D0099DFB9 /* 0x05 */,
 				4524FB3E2B08BF7200E8B367 /* 0x06 */,
 				4595349D2B10238300248A06 /* 0x07 */,
+				45F43DFB2B132C510035C0AD /* 0x08 */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -159,6 +162,18 @@
 				45E741FE2B064D390099DFB9 /* BOJ6198.swift */,
 			);
 			path = 0x05;
+			sourceTree = "<group>";
+		};
+		45F43DFB2B132C510035C0AD /* 0x08 */ = {
+			isa = PBXGroup;
+			children = (
+				45F43DFC2B132C7A0035C0AD /* BOJ4949.swift */,
+				45F43DFE2B132EB00035C0AD /* BOJ3986.swift */,
+				45F43E002B1330360035C0AD /* BOJ9012.swift */,
+				45F43E022B1335F60035C0AD /* BOJ10799.swift */,
+				4566497C2B15600300F6B1AB /* BOJ2504.swift */,
+			);
+			path = 0x08;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,10 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				459534A22B10238300248A06 /* BOJ5430.swift in Sources */,
 				454809B52AF9CB550032E18B /* main.swift in Sources */,
-				459534A12B10238300248A06 /* BOJ10866.swift in Sources */,
-				459534A32B10238300248A06 /* BOJ1021.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
