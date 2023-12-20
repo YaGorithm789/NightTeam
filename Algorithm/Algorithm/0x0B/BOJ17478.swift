@@ -10,7 +10,7 @@ let n = Int(readLine()!)!
 
 func recursion(_ num: Int) {
 
-    let underBar = Array(repeating: "____", count: n - num).joined()
+    let underBar = String(repeating: "____", count: n - num)
 
     if num == 0 {
         print("""
