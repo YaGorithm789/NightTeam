@@ -37,6 +37,10 @@
 		452695052B02FECE006C9BD3 /* BOJ10773.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ10773.swift; sourceTree = "<group>"; };
 		452695072B034D3E006C9BD3 /* BOJ1874.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1874.swift; sourceTree = "<group>"; };
 		4532F8342AFD2A16003E1B7C /* BOJ1406.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1406.swift; sourceTree = "<group>"; };
+		45384A202B7BA3AC0035F70C /* BOJ11047.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ11047.swift; sourceTree = "<group>"; };
+		45384A222B7BA3C90035F70C /* BOJ1931.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1931.swift; sourceTree = "<group>"; };
+		45384A242B7BA3DE0035F70C /* BOJ2217.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ2217.swift; sourceTree = "<group>"; };
+		45384A262B7BA5650035F70C /* BOJ1026.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1026.swift; sourceTree = "<group>"; };
 		453C3C502B6BC0090084CED1 /* BOJ14002.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ14002.swift; sourceTree = "<group>"; };
 		453C3C522B6D05170084CED1 /* BOJ15988.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ15988.swift; sourceTree = "<group>"; };
 		453C3C542B6D05320084CED1 /* BOJ2156.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ2156.swift; sourceTree = "<group>"; };
@@ -159,6 +163,17 @@
 			path = 0x06;
 			sourceTree = "<group>";
 		};
+		45384A1F2B7BA3530035F70C /* 0x11 */ = {
+			isa = PBXGroup;
+			children = (
+				45384A202B7BA3AC0035F70C /* BOJ11047.swift */,
+				45384A222B7BA3C90035F70C /* BOJ1931.swift */,
+				45384A242B7BA3DE0035F70C /* BOJ2217.swift */,
+				45384A262B7BA5650035F70C /* BOJ1026.swift */,
+			);
+			path = 0x11;
+			sourceTree = "<group>";
+		};
 		454809A82AF9CB550032E18B = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +206,7 @@
 				45E9861A2B4AA5B40007A14C /* 0x0D */,
 				456138B92B4C285F0065352E /* 0x0F */,
 				456D7B5C2B625930000C3775 /* 0x10 */,
+				45384A1F2B7BA3530035F70C /* 0x11 */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
